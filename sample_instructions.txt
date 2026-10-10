@@ -1,0 +1,10 @@
+OPEN_ACCOUNT name=Aditi Rao, dob=1996-08-14, phone=9988776655, address=MG Road Suite 4, type=SAVINGS, deposit=12000, pin=5820, password=aditiPass, adminId=A1001
+OPEN_ACCOUNT name=Bharat Exports, dob=1991-04-20, phone=9988776656, address=Industrial Area Plot 12, type=CURRENT, deposit=25000, pin=3719, password=bharatPass, adminId=A1001
+DEPOSIT account=1000000001, amount=3000
+ATM_WITHDRAW card=5234560000000018, pin=5820, amount=2000
+TRANSFER from=1000000001, to=1000000002, amount=4000
+BALANCE account=1000000001
+BALANCE account=1000000002
+MONTH_END
+REPORT type=DAILY_SUMMARY
+REPORT type=CUSTOMERS
